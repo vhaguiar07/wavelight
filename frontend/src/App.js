@@ -137,7 +137,7 @@ const Login = () => {
     <div>
       {registered ? (
         <div>
-          <h1 style={{ textAlign: 'center' }}>API de Conversão de vídeos para gif</h1>
+          <h1 style={{ textAlign: 'center' }}>Aplicação de Conversão de vídeos para gif</h1>
           <div style={{ margin: 'auto', width: '50%' }}>
             <h2 style={{ textAlign: 'center' }} >Preencha abaixo as informações do gif</h2>
               <form style={{ textAlign: 'center', display: 'block', margin: 'auto', maxWidth: '300px' }} onSubmit={handleVideoSubmit}>
