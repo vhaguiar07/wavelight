@@ -16,7 +16,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./uploads:/app/uploads
+      - ./backend/uploads:/app/uploads
 
   postgres:
     container_name: postgres-db
