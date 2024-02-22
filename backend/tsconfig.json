@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2017", // Alterado para ES2017, o Nest.js suporta ES2017 ou superior
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./", // Define o diretório raiz do projeto
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true, // Permite a importação de arquivos .json
+    "baseUrl": "./",
+    "incremental": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": ["node_modules", "dist"] // Exclui diretórios desnecessários da compilação
+}
