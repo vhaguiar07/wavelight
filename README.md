@@ -31,7 +31,7 @@ _Desenvolver uma API no back-end para receber arquivos de vídeo e convertê-los
 
 ## Armazenamento de Dados:
 
-_Decidir sobre uma estratégia de armazenamento para os dados dos usuários e os GIFs criados._ - Optei por armazenar os dados dos usuário no Postgres, assim como os dados dos vídeos (id do usuário correspondente, título do vídeo), o que futuramente foi utilizado para retornar os gifs de cada usuário, ou seja, se o usuário1 converteu o gif1, ele só conseguirá ver o gif1 na sua biblioteca (não verá gifs de outros usuários), graças à validação via banco de dados. Já os gifs, esses foram armazenados localmente no diretório /uploads, com um ponto de montagem no container Nest.js, em /app/uploads.
+_Decidir sobre uma estratégia de armazenamento para os dados dos usuários e os GIFs criados._ - Optei por armazenar os dados dos usuário no Postgres, assim como os dados dos vídeos (id do usuário correspondente, título do vídeo), o que futuramente foi utilizado para retornar os gifs de cada usuário, ou seja, se o usuário1 converteu o gif1, ele só conseguirá ver o gif1 na sua biblioteca (não verá gifs de outros usuários), graças à validação via banco de dados. Já os gifs, esses foram armazenados localmente no diretório /backend/uploads, com um ponto de montagem no container Nest.js, em /app/uploads.
 
 ## Breve explicações sobre as rotas
 
